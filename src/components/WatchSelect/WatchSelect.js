@@ -8,21 +8,21 @@ export default function WatchSelect() {
       </div>
       <div className="select__watches">
         <div className="select__seven-container">
-          <img className="select__image"></img>
+          <img alt="" className="select__image"></img>
           <p className="select__header">Apple Watch Series 7</p>
           <p className="select__price">From $529</p>
           <button className="select__buy">Buy</button>
           <p className="select__learn-more">Learn more {`>`}</p>
         </div>
         <div className="select__se-container">
-          <img className="select__image"></img>
+          <img alt="" className="select__image"></img>
           <p className="select__header">Apple Watch SE</p>
           <p className="select__price">From $369</p>
           <button className="select__buy">Buy</button>
           <p className="select__learn-more">Learn more {`>`}</p>
         </div>
         <div className="select__three-container">
-          <img className="select__image"></img>
+          <img alt="" className="select__image"></img>
           <p className="select__header">Apple Watch Series 3</p>
           <p className="select__price">From $249</p>
           <button className="select__buy">Buy</button>
@@ -51,7 +51,7 @@ export default function WatchSelect() {
       </table>
       <div className="select__display-container">
         <div className="select__on">
-          <img></img>
+          <img alt=""></img>
           <p className="select__on-header">Always-On Retina Display</p>
           <p className="select__on-sub-header">
             Nearly 20% larger than Apple Watch SE
@@ -59,20 +59,20 @@ export default function WatchSelect() {
           <p className="select__on-size"></p>
         </div>
         <div className="select__retina">
-          <img></img>
+          <img alt=""></img>
           <p className="select__retina-header">Retina display</p>
           <p className="select__retina-sub-header">
             Over 30% larger than Series 3
           </p>
         </div>
         <div className="select__retina-display">
-          <img></img>
+          <img alt=""></img>
           <p className="select__retina-display-header">Retina display</p>
         </div>
       </div>
       <div className="select__oxygen-container">
         <div className="select__oxygen-on">
-          <img></img>
+          <img alt=""></img>
           <p className="select__on-display-header">Blood Oxygen app</p>
         </div>
         <div className="select__retina">
@@ -84,7 +84,7 @@ export default function WatchSelect() {
       </div>
       <div className="select__ecg-container">
         <div className="select__ecg-on">
-          <img></img>
+          <img alt=""></img>
           <p className="select__on-display-header">ECG app</p>
         </div>
         <div className="select__retina">
