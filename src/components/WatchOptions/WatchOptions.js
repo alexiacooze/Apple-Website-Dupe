@@ -54,7 +54,7 @@ export default function WatchOptions() {
           <p className="options__os">watchOS</p>
         </div>
         <div className="options__shop-container">
-          <img src="https://www.apple.com/v/watch/ax/images/overview/icons/watch_nav_shop_watch_light__fkrdcz8nfwi2_large.svg" alt="Shop Watch" />
+          <img className="options__shop-image" src="https://www.apple.com/v/watch/ax/images/overview/icons/watch_nav_shop_watch_light__fkrdcz8nfwi2_large.svg" alt="Shop Watch" />
           <p className="options__shop">Shop</p>
         </div>
       </nav>
