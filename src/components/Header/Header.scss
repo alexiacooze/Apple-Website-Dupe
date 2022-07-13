@@ -1,6 +1,95 @@
 @use "../../partials/variables" as *;
 @use "../../partials/mixins" as *;
 
-.Header {
-    
+
+.header {
+  background: $grey;
+ 
+ 
+
+  li {
+    color: rgba(255, 255, 255, 0.809);
+    margin-top: .3rem;
+    list-style-type: none;
+    padding-right: 2.2rem;
+    font-family: "SF pro";
+    font-size: .75rem;
+    font-weight: 350;
+  }
+
+  li:hover {
+ color: white;
+ cursor:pointer;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    height: 1.3rem;
+   padding-left: 1rem;
+  }
+
+  &__logo:hover {
+    color: white;
+    cursor:pointer;
+     }
+
+  &__nav-container {
+  }
+
+  &__menu {
+    display: flex;
+    margin: .6rem 0rem .9rem 0rem;
+  }
+
+  &__store {
+  }
+
+  &__mac {
+  }
+
+  &__ipad {
+  }
+
+  &__iPhone {
+  }
+
+  &__watch {
+  }
+
+  &__airpods {
+  }
+
+  &__tv-home {
+  }
+
+  &__apple-only {
+  }
+
+  &__accessories {
+  }
+
+  &__support {
+  }
+
+  &__search,
+  &__purchase {
+    height: 1.2rem;
+    padding-right: 2.2rem;
+  }
+
+  &__search,
+  &__purchase:hover {
+    color: white;
+    cursor:pointer;
+     }
 }
