@@ -7,8 +7,9 @@
     @include font;
   }
 
-  p:hover {
+  div:hover {
     color: $blue;
+    cursor: pointer;
   }
 
   &__nav-container {

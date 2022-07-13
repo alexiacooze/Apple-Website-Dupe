@@ -2,5 +2,90 @@
 @use "../../partials/mixins" as *;
 
 .seven {
-    
+  background-color: $lightgrey;
+  padding-bottom: 6rem;
+  @include font;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.5rem;
+  }
+
+  &__logo {
+    height: 3rem;
+    width: 9%;
+  }
+
+  &__header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem;
+  }
+
+  &__price {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: .2rem 0rem 2rem 0rem;
+  }
+
+  &__buy {
+    width: 4%;
+    background-color: $blue;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  &__buy:hover {
+    background-color:#2782dc ;
+  }
+
+  &__learn-more {
+    margin-left: 4rem;
+    margin-right: .3rem;
+    color: $blue;
+    font-size: 1.2rem;
+  }
+
+  &__watch {
+    margin-right: .3rem;
+    color: $blue;
+    font-size: 1.2rem;
+  }
+
+  &__learn-more:hover {
+    text-decoration: underline $blue solid 2px;
+  }
+
+  &__watch:hover {
+    text-decoration: underline $blue solid 2px;
+  }
+
+  &__play {
+   width: 35%;
+   margin-top: .3rem;
+  }
+
+  &__arrow{
+    margin-top: .3rem;
+  }
+
+  &__image {
+    height: 50rem;
+  }
+
+  &__learn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image-container {
+    display: flex;
+    justify-content: center;
+  }
 }
