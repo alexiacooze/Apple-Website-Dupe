@@ -18,3 +18,11 @@
     @content;
   }
 }
+
+
+// font
+
+@mixin font {
+  font-family: "SF pro";
+  font-weight: 350;
+}

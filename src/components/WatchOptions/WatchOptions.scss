@@ -2,5 +2,155 @@
 @use "../../partials/mixins" as *;
 
 .options {
-    
+  p {
+    padding-right: 0.5rem;
+    font-size: 0.7rem;
+    @include font;
+  }
+
+  &__nav-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__seven,
+  &__se,
+  &__three,
+  &__nike,
+  &__hermes,
+  &__studio,
+  &__compare,
+  &__bands,
+  &__fitness,
+  &__os,
+  &__shop {
+    width: 5rem;
+    text-align: center;
+  }
+
+  &__seven-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__se-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__three-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__nike-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__hermes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__studio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__compare-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__bands-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__airpods-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__accessories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__fitness-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__os-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__shop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__seven-image {
+    height: 3.5rem;
+  }
+  &__se-image {
+    height: 3.5rem;
+  }
+  &__three-image {
+    height: 3.5rem;
+  }
+  &__nike-image {
+    height: 3.5rem;
+  }
+  &__hermes-image {
+    height: 3.5rem;
+  }
+  &__studio-image {
+    height: 3.5rem;
+  }
+  &__compare-image {
+    height: 3.5rem;
+  }
+
+  &__band-image {
+    height: 3.5rem;
+  }
+
+  &__airpods-image {
+    height: 3.5rem;
+  }
+
+  &__accessories-image {
+    height: 3.5rem;
+  }
+  
+  &__fitness-image {
+    height: 3.5rem;
+  }
+
+  &__os-image {
+    height: 3.5rem;
+  }
+
+  &__shop-image {
+    height: 3.5rem;
+  }
 }
