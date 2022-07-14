@@ -1,0 +1,79 @@
+@use "../../partials/variables" as *;
+@use "../../partials/mixins" as *;
+
+.footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0rem 15rem;
+  @include font;
+
+  &__delivery {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  &__delivery-image {
+    height: 5rem;
+  }
+
+  &__statement {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  &__comment {
+    width: 12rem;
+  }
+
+  &__learn-more {
+    color: $blue;
+  }
+
+  &__learn-more:hover {
+    text-decoration: underline solid 1px $blue;
+  }
+
+  &__help {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  &__help-image {
+    height: 5rem;
+  }
+
+  &__statement {
+  }
+
+  &__comment {
+    width: 15rem;
+  }
+
+  &__contact {
+    color: $blue;
+  }
+
+  &__contact:hover {
+    text-decoration: underline 1px solid $blue;
+  }
+
+  &__learn-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__play {
+    height: 2rem;
+    margin-top: 0.5rem;
+  }
+}
