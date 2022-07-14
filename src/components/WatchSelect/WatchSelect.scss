@@ -2,5 +2,205 @@
 @use "../../partials/mixins" as *;
 
 .select {
-    
+    background-color: white;
+    padding: 2rem 0rem 2rem 0rem;
+    @include font;
+
+&__header-container {
+display: flex;
+justify-content:center ;
 }
+
+&__header {
+font-size: 3rem;
+font-weight: 600;
+margin-bottom: .1rem;
+}
+
+&__watches {
+display: flex;
+justify-content: space-evenly;
+padding: 4rem 5rem 3rem 5rem;
+}
+
+&__seven-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+&__image {
+height: 15rem;
+}
+
+&__header-watch {
+font-weight: 600;
+font-size: 1.3rem;
+margin-bottom: .1rem;
+}
+
+&__price {
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+&__buy {
+background-color: $blue;
+color: white;
+border: none;
+border-radius: 20px;
+padding: .3rem .7rem;
+font-size: .8rem;
+}
+&__buy:hover {
+background-color: #318ae4;
+cursor: pointer;
+}
+
+&__learn-container {
+    display: flex;
+    align-items: center;
+}
+
+&__learn-more {
+color: $blue;
+font-size: .9rem;
+}
+
+&__learn-more:hover {
+text-decoration: underline $blue solid 1px;
+cursor: pointer;
+}
+
+&__se-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+&__three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+&__table-container {
+
+}
+
+&__play {
+padding-top: 8px;
+    height: 1.5rem;
+}
+
+&__table {
+
+}
+
+&__table-size {
+
+}
+
+&__swim {
+
+}
+
+&__crack {
+
+}
+
+&__dust {
+
+}
+
+&__table {
+
+}
+
+&__display-container {
+
+}
+
+&__on-header {
+
+}
+
+&__on-sub-header {
+
+}
+
+&__on-size {
+
+}
+
+&__retina {
+
+}
+
+&__retina-header {
+
+}
+
+&__retina-sub-header {
+
+}
+
+&__retina-display {
+
+}
+
+&__retina-display-header {
+
+}
+
+&__oxygen-container {
+
+}
+
+&__oxygen-on {
+
+}
+
+&__on-display-header {
+
+}
+
+&__retina {
+
+}
+
+&__retina-option {
+
+}
+
+&__retina-display {
+
+}
+
+&__retina-display-option {
+
+}
+
+&__ecg-container {
+
+}
+
+&__ecg-on {
+
+}
+
+&__compare-models {
+
+}
+
+&__compare {
+
+}
+
+&__compare-shop {
+
+}
+
+}
+    
+    
