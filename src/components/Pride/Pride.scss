@@ -2,12 +2,14 @@
 @use "../../partials/mixins" as *;
 
 .pride {
+  margin: 3rem;
   @include font;
 
   &__header-container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 2.5rem;
   }
 
   &__header-text {
@@ -20,26 +22,95 @@
     height: 5rem;
   }
 
+  &__new {
+    color: #bf4808;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+
+  &__price {
+    font-size: 1rem;
+  }
+
+  &__buy {
+    background-color: $blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  &__buy:hover {
+    background-color: #318ae4;
+    cursor: pointer;
+  }
+
   &__sub-header-text {
     font-size: 1.4rem;
     width: 22.5rem;
     text-align: center;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
   }
 
+  &__image-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  &__image-1 {
+    height: 25rem;
+    padding: 1rem 10rem 0rem 8rem;
+  }
+
+  &__image-2 {
+    height: 25rem;
+    padding: 1rem 10rem 0rem 8rem;
+  }
+
   &__double-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 8rem .7rem 8rem;
   }
 
   &__card-one {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 0rem 3rem 1.5rem;
   }
 
   &__card-two {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 0rem 3rem 1.5rem;
   }
 
   &__single-container {
   }
 
   &__card-three {
+    display: flex;
+    background-color: white;
+    border-radius: 2rem;
+    justify-content: center;
+    padding: 2rem 3rem 2rem 3rem;
+    margin: 0rem 9rem;
+    
+  }
+
+  &__image-square {
+    height: 6.5rem;
+  }
+
+  &__description {
+    width: 15rem;
+    font-weight: 600;
+    font-size: 1rem;
   }
 }
