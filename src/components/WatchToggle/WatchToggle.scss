@@ -1,6 +1,93 @@
 @use "../../partials/variables" as *;
 @use "../../partials/mixins" as *;
 
+body {
+  background-color: $lightgrey;
+}
+
 .toggle {
-    
+  padding: 5rem 12rem 5rem 12rem;
+  background-color: white;
+  border-radius: 30px;
+  margin: 2rem;
+
+  @include font;
+
+  &__image-container {
+
+  }
+
+  &__card-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__image {
+  }
+
+  &__image-white {
+    height: 20rem;
+  }
+
+  &__image-black {
+    height: 20rem;
+  }
+
+  &__description-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__comment {
+    color: #1d1d1f;
+    font-weight: 600;
+  }
+
+  &__header {
+    color: #52616c;
+    font-weight: 600;
+    font-size: 5rem;
+    width: 60%;
+  }
+
+  &__container {
+    display: flex;
+    border-radius: 3rem;
+    // padding: .3rem 2rem .3rem 2rem;
+  }
+
+  &__seven {
+    background-color: #1d1d1f;
+    border-radius: 40px;
+    padding: 1.2rem 3rem;
+    color: white;
+    position: relative;
+    left: 4rem;
+    font-size: 1rem;
+  }
+
+  &__three {
+    border-radius: 40px;
+    padding: 1.2rem 3rem 1.2rem 7rem;
+    background-color: $lightgrey;
+    border: none;
+    font-size: 1rem;
+  }
+
+  //   &__switch-seven {
+  //     border-radius: 40px;
+  //     padding: 1.2rem 8rem 1.2rem 3rem;
+  //      background-color: $lightgrey;
+  //      color: #1d1d1f;
+  //   }
+
+  //   &__switch-three {
+  //     background-color: #1d1d1f;
+  //     border-radius: 40px;
+  //     padding: 1.2rem 3rem;
+  //     color: white;
+  //     position: relative;
+  //     right: 1rem;
+  //   }
 }
