@@ -85,7 +85,8 @@ cursor: pointer;
 }
 
 &__table-container {
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
 &__play {
@@ -94,91 +95,91 @@ padding-top: 8px;
 }
 
 &__table {
-
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
 }
 
 &__table-size {
-
+font-weight: 600;
+font-size: 1.2rem;
 }
 
 &__swim {
-
+    font-size: .85rem;
 }
 
 &__crack {
-
+    font-size: .85rem;
 }
 
 &__dust {
-
+    font-size: .85rem;
 }
 
-&__table {
-
-}
 
 &__display-container {
 
 }
 
 &__on-header {
-
+    font-size: .85rem;
 }
 
 &__on-sub-header {
-
+    font-size: .85rem;
 }
 
 &__on-size {
-
+    font-size: .85rem;
 }
 
 &__retina {
-
+    font-size: .85rem;
 }
 
 &__retina-header {
-
+    font-size: .85rem;
 }
 
 &__retina-sub-header {
-
+    font-size: .85rem;
 }
 
 &__retina-display {
-
+    font-size: .85rem;
 }
 
 &__retina-display-header {
-
+    font-size: .85rem;
 }
 
 &__oxygen-container {
-
+    font-size: .85rem;
 }
 
 &__oxygen-on {
-
+    font-size: .85rem;
 }
 
 &__on-display-header {
-
+    font-size: .85rem;
 }
 
 &__retina {
-
+    font-size: .85rem;
 }
 
 &__retina-option {
-
+    font-size: .85rem;
 }
 
 &__retina-display {
-
+    font-size: .85rem;
 }
 
 &__retina-display-option {
-
+    font-size: .85rem;
 }
 
 &__ecg-container {
@@ -186,7 +187,7 @@ padding-top: 8px;
 }
 
 &__ecg-on {
-
+    font-size: .85rem;
 }
 
 &__compare-models {

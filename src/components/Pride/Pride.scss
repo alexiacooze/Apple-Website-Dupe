@@ -2,5 +2,44 @@
 @use "../../partials/mixins" as *;
 
 .pride {
-    
+  @include font;
+
+  &__header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__header-text {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+  }
+
+  &__header-image {
+    height: 5rem;
+  }
+
+  &__sub-header-text {
+    font-size: 1.4rem;
+    width: 22.5rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__double-container {
+  }
+
+  &__card-one {
+  }
+
+  &__card-two {
+  }
+
+  &__single-container {
+  }
+
+  &__card-three {
+  }
 }
