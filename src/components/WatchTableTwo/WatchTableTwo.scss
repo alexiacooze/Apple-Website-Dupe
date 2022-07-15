@@ -1,0 +1,49 @@
+@use "../../partials/variables" as *;
+@use "../../partials/mixins" as *;
+
+.table-two {
+  background-color: white;
+//   padding: 0rem 6rem 2rem 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__on {
+    text-align: center;
+   
+  }
+
+  &__retina {
+    text-align: center;
+    padding-left: 1rem;
+    position:relative;
+    right: 5rem;
+  }
+
+  &__retina-display {
+    text-align: center;
+    padding-left: 1rem;
+    position:relative;
+    right: 5.75rem;
+  }
+
+  &__image {
+    height: 3.5rem;
+  }
+
+  &__on-header {
+    font-size: 0.85rem;
+  }
+
+  &__on-sub-header {
+    font-size: 0.85rem;
+  }
+
+  &__on-size {
+    font-size: 0.85rem;
+  }
+
+  &__retina-display-header {
+    font-size: 0.85rem;
+  }
+}

@@ -62,50 +62,9 @@ export default function WatchSelect() {
         </div>
       </div>
 
-      <div className="select__table-container">
-        <div className="select__top-container">
-          <div className="select__table">
-            <p className="select__table-size">45mm or 41mm</p>
-            <p className="select__swim">Swimproof</p>
-            <p className="select__crack">Most crack-resistant front crystal</p>
-            <p className="select__dust">Certified IP6X dust resistant</p>
-          <div />
-          <div className="select__table">
-              <p className="select__table-size">44mm or 40mm</p>
-              <p className="select__swim">Swimproof</p>
-              <p className="select__crack">–</p>
-              <p className="select__dust">–</p>
-          </div>
-          <div className="select__table">
-              <p className="select__table-size">42mm or 38mm</p>
-              <p className="select__swim">Swimproof</p>
-              <p className="select__crack">–</p>
-              <p className="select__dust">–</p>
-          </div>
-          </div>
-        </div>
-
-        <div className="select__display-container">
-          <div className="select__on">
-            <img src="https://www.apple.com/v/watch/ax/images/compare/quicklook_retina_display_s7__euol4grkrx8i_large_2x.png" alt=""></img>
-            <p className="select__on-header">Always-On Retina Display</p>
-            <p className="select__on-sub-header">
-              Nearly 20% larger than Apple Watch SE
-            </p>
-            <p className="select__on-size"></p>
-          </div>
-          <div className="select__retina">
-            <img src="https://www.apple.com/v/watch/ax/images/compare/quicklook_retina_display_se__bkqpyec086ya_large_2x.png" alt=""></img>
-            <p className="select__retina-header">Retina display</p>
-            <p className="select__retina-sub-header">
-              Over 30% larger than Series 3
-            </p>
-          </div>
-          <div className="select__retina-display">
-            <img src="https://www.apple.com/v/watch/ax/images/compare/quicklook_retina_display_s3__c28bwxqba1w2_large_2x.png" alt=""></img>
-            <p className="select__retina-display-header">Retina display</p>
-          </div>
-        </div>
+      {/* 
+       
+       
 
         <div className="select__oxygen-container">
           <div className="select__oxygen-on">
@@ -136,8 +95,7 @@ export default function WatchSelect() {
         <div className="select__compare-models">
           <p className="select__compare">Compare all models</p>
           <p className="select__compare-shop">Shop Apple Watch</p>
-        </div>
-      </div>
+        </div> */}
     </section>
   );
 }

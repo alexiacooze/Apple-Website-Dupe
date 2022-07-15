@@ -2,206 +2,141 @@
 @use "../../partials/mixins" as *;
 
 .select {
-    background-color: white;
-    padding: 2rem 0rem 2rem 0rem;
-    @include font;
+  background-color: white;
+  padding: 2rem 0rem 0rem 0rem;
+  @include font;
 
-&__header-container {
-display: flex;
-justify-content:center ;
-}
-
-&__header {
-font-size: 3rem;
-font-weight: 600;
-margin-bottom: .1rem;
-}
-
-&__watches {
-display: flex;
-justify-content: space-evenly;
-padding: 4rem 5rem 3rem 5rem;
-}
-
-&__seven-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-&__image {
-height: 15rem;
-}
-
-&__header-watch {
-font-weight: 600;
-font-size: 1.3rem;
-margin-bottom: .1rem;
-}
-
-&__price {
-    font-size: .9rem;
-    margin-top: .5rem;
-}
-
-&__buy {
-background-color: $blue;
-color: white;
-border: none;
-border-radius: 20px;
-padding: .3rem .7rem;
-font-size: .8rem;
-}
-&__buy:hover {
-background-color: #318ae4;
-cursor: pointer;
-}
-
-&__learn-container {
+  &__header-container {
     display: flex;
-    align-items: center;
-}
+    justify-content: center;
+  }
 
-&__learn-more {
-color: $blue;
-font-size: .9rem;
-}
+  &__header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+  }
 
-&__learn-more:hover {
-text-decoration: underline $blue solid 1px;
-cursor: pointer;
-}
-
-&__se-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-&__three-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-&__table-container {
+  &__watches {
     display: flex;
     justify-content: space-evenly;
-}
+    padding: 4rem 5rem 3rem 5rem;
+  }
 
-&__play {
-padding-top: 8px;
+  &__seven-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__image {
+    height: 15rem;
+  }
+
+  &__header-watch {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 0.1rem;
+  }
+
+  &__price {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  &__buy {
+    background-color: $blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+  }
+  &__buy:hover {
+    background-color: #318ae4;
+    cursor: pointer;
+  }
+
+  &__learn-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__learn-more {
+    color: $blue;
+    font-size: 0.9rem;
+  }
+
+  &__learn-more:hover {
+    text-decoration: underline $blue solid 1px;
+    cursor: pointer;
+  }
+
+  &__se-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__table-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__play {
+    padding-top: 8px;
     height: 1.5rem;
+  }
+
+ 
+
+  &__oxygen-container {
+    font-size: 0.85rem;
+  }
+
+  &__oxygen-on {
+    font-size: 0.85rem;
+  }
+
+  &__on-display-header {
+    font-size: 0.85rem;
+  }
+
+  &__retina {
+    font-size: 0.85rem;
+  }
+
+  &__retina-option {
+    font-size: 0.85rem;
+  }
+
+  &__retina-display {
+    font-size: 0.85rem;
+  }
+
+  &__retina-display-option {
+    font-size: 0.85rem;
+  }
+
+  &__ecg-container {
+  }
+
+  &__ecg-on {
+    font-size: 0.85rem;
+  }
+
+  &__compare-models {
+  }
+
+  &__compare {
+  }
+
+  &__compare-shop {
+  }
 }
-
-&__table {
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-}
-
-&__table-size {
-font-weight: 600;
-font-size: 1.2rem;
-}
-
-&__swim {
-    font-size: .85rem;
-}
-
-&__crack {
-    font-size: .85rem;
-}
-
-&__dust {
-    font-size: .85rem;
-}
-
-
-&__display-container {
-
-}
-
-&__on-header {
-    font-size: .85rem;
-}
-
-&__on-sub-header {
-    font-size: .85rem;
-}
-
-&__on-size {
-    font-size: .85rem;
-}
-
-&__retina {
-    font-size: .85rem;
-}
-
-&__retina-header {
-    font-size: .85rem;
-}
-
-&__retina-sub-header {
-    font-size: .85rem;
-}
-
-&__retina-display {
-    font-size: .85rem;
-}
-
-&__retina-display-header {
-    font-size: .85rem;
-}
-
-&__oxygen-container {
-    font-size: .85rem;
-}
-
-&__oxygen-on {
-    font-size: .85rem;
-}
-
-&__on-display-header {
-    font-size: .85rem;
-}
-
-&__retina {
-    font-size: .85rem;
-}
-
-&__retina-option {
-    font-size: .85rem;
-}
-
-&__retina-display {
-    font-size: .85rem;
-}
-
-&__retina-display-option {
-    font-size: .85rem;
-}
-
-&__ecg-container {
-
-}
-
-&__ecg-on {
-    font-size: .85rem;
-}
-
-&__compare-models {
-
-}
-
-&__compare {
-
-}
-
-&__compare-shop {
-
-}
-
-}
-    
-    

@@ -6,6 +6,8 @@ import Pride from "./components/Pride/Pride";
 import SeriesSeven from "./components/SeriesSeven/SeriesSeven";
 import WatchOptions from "./components/WatchOptions/WatchOptions";
 import WatchSelect from "./components/WatchSelect/WatchSelect";
+import WatchTableOne from "./components/WatchTableOne/WatchTableOne";
+import WatchTableTwo from "./components/WatchTableTwo/WatchTableTwo";
 import WatchToggle from "./components/WatchToggle/WatchToggle";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <SeriesSeven />
       <WatchToggle />
       <WatchSelect />
+      <WatchTableOne />
+      <WatchTableTwo />
       <Pride />
       <Footer />
     </div>
