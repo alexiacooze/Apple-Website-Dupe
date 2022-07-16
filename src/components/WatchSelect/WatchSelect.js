@@ -61,41 +61,6 @@ export default function WatchSelect() {
           </div>
         </div>
       </div>
-
-      {/* 
-       
-       
-
-        <div className="select__oxygen-container">
-          <div className="select__oxygen-on">
-            <img src="https://www.apple.com/v/watch/ax/images/compare/quicklook_bo_app__bn0uz5oly82u_large_2x.png" alt=""></img>
-            <p className="select__on-display-header">Blood Oxygen app</p>
-          </div>
-          <div className="select__retina">
-            <p className="select__retina-option">–</p>
-          </div>
-          <div className="select__retina-display">
-            <p className="select__retina-display-option">–</p>
-          </div>
-        </div>
-
-        <div className="select__ecg-container">
-          <div className="select__ecg-on">
-            <img src="https://www.apple.com/v/watch/ax/images/compare/quicklook_ecg_app__cha5dfocq4wi_large_2x.png" alt=""></img>
-            <p className="select__on-display-header">ECG app</p>
-          </div>
-          <div className="select__retina">
-            <p className="select__retina-option">–</p>
-          </div>
-          <div className="select__retina-display">
-            <p className="select__retina-display-option">–</p>
-          </div>
-        </div>
-
-        <div className="select__compare-models">
-          <p className="select__compare">Compare all models</p>
-          <p className="select__compare-shop">Shop Apple Watch</p>
-        </div> */}
     </section>
   );
 }

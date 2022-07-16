@@ -14,7 +14,6 @@ body {
   @include font;
 
   &__image-container {
-
   }
 
   &__card-container {
@@ -24,7 +23,6 @@ body {
 
   &__image-white {
     height: 20rem;
-    
   }
 
   &__image-black {
@@ -50,7 +48,7 @@ body {
     font-weight: 600;
     font-size: 5rem;
     width: 80%;
-    margin: .1rem 2rem 10rem 2rem;
+    margin: 0.1rem 2rem 10rem 2rem;
   }
 
   &__container {
@@ -165,6 +163,5 @@ body {
     position: relative;
     bottom: 10.3rem;
     right: 11rem;
-
   }
 }

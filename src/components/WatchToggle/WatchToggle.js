@@ -43,7 +43,7 @@ export default function WatchToggle() {
           </div>
           <div className="toggle__black-container">
             <p onClick={toggle} className="toggle__black">
-             {active ? <span>Series 3</span> : <span>Series 7</span>}
+              {active ? <span>Series 3</span> : <span>Series 7</span>}
             </p>
           </div>
           <div className="toggle__container">

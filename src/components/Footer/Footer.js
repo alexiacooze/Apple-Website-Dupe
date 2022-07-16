@@ -35,12 +35,11 @@ export default function Footer() {
           1‑800‑MY‑APPLE.
         </p>
         <div className="footer__contact-container">
-
-        <p className="footer__contact">Contact us</p>
-        <span>
-          {" "}
-          <img className="footer__play" alt="play" src={arrow} />
-        </span>
+          <p className="footer__contact">Contact us</p>
+          <span>
+            {" "}
+            <img className="footer__play" alt="play" src={arrow} />
+          </span>
         </div>
       </div>
     </section>

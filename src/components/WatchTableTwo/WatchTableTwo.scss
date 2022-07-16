@@ -3,27 +3,27 @@
 
 .table-two {
   background-color: white;
-//   padding: 0rem 6rem 2rem 6rem;
+  //   padding: 0rem 6rem 2rem 6rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 
   &__on {
     text-align: center;
-   
   }
 
   &__retina {
     text-align: center;
     padding-left: 1rem;
-    position:relative;
+    position: relative;
     right: 5rem;
   }
 
   &__retina-display {
     text-align: center;
     padding-left: 1rem;
-    position:relative;
+
+    position: relative;
     right: 5.75rem;
   }
 

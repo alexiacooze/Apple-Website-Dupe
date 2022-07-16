@@ -27,7 +27,7 @@
   &__price {
     font-size: 1.3rem;
     font-weight: 600;
-    margin: .2rem 0rem 2rem 0rem;
+    margin: 0.2rem 0rem 2rem 0rem;
   }
 
   &__buy {
@@ -41,18 +41,18 @@
   }
 
   &__buy:hover {
-    background-color:#2782dc ;
+    background-color: #2782dc;
   }
 
   &__learn-more {
     margin-left: 4rem;
-    margin-right: .3rem;
+    margin-right: 0.3rem;
     color: $blue;
     font-size: 1.2rem;
   }
 
   &__watch {
-    margin-right: .3rem;
+    margin-right: 0.3rem;
     color: $blue;
     font-size: 1.2rem;
   }
@@ -66,12 +66,12 @@
   }
 
   &__play {
-   width: 35%;
-   margin-top: .3rem;
+    width: 35%;
+    margin-top: 0.3rem;
   }
 
-  &__arrow{
-    margin-top: .3rem;
+  &__arrow {
+    margin-top: 0.3rem;
   }
 
   &__image {

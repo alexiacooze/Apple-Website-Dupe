@@ -1,7 +1,7 @@
 import React from "react";
 import "../SeriesSeven/SeriesSeven.scss";
-import play from "../../assets/play.png"
-import arrow from "../../assets/arrow.png"
+import play from "../../assets/play.png";
+import arrow from "../../assets/arrow.png";
 
 export default function SeriesSeven() {
   return (
@@ -17,8 +17,16 @@ export default function SeriesSeven() {
         <button className="seven__buy">Buy</button>
       </div>
       <div className="seven__learn-container">
-        <p className="seven__learn-more">Learn more</p> <span> <img className="seven__play" alt="play" src={arrow}/></span>
-        <p className="seven__watch"> Watch the film</p> <span> <img className="seven__play" alt="play" src={play}/></span>
+        <p className="seven__learn-more">Learn more</p>{" "}
+        <span>
+          {" "}
+          <img className="seven__play" alt="play" src={arrow} />
+        </span>
+        <p className="seven__watch"> Watch the film</p>{" "}
+        <span>
+          {" "}
+          <img className="seven__play" alt="play" src={play} />
+        </span>
       </div>
       <div className="seven__image-container">
         <img
